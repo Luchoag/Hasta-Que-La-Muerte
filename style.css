@@ -1,0 +1,530 @@
+body {
+    width: 615px;
+    height: 857px; 
+}
+
+#wrapper {
+    font-family: Onyx, "Onyx Std Regular";
+}
+
+#topBarLeft {
+    background-color: #5E763A;
+    width: 50%;
+    height: 2%;
+    position: absolute;
+}
+
+#topBarRight {
+    background-color: #FCCD35;
+    width: 50%;
+    height: 2%;
+    position: absolute;
+    left: 50%;
+}
+
+#verticalBarTopLeft {
+    background-color: #5E763A;
+    width: 2%;
+    height: 50%;
+    position: absolute;
+}
+
+#verticalBarBottomLeft{
+    background-color: #FCCD35;
+    width: 2%;
+    height: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+#verticalBarTopRight {
+    background-color: #FCCD35;
+    width: 2%;
+    height: 50%;
+    left: 98%;
+    position: absolute;
+}
+
+#verticalBarBottomRight{
+    background-color: #5E763A;
+    width: 2%;
+    height: 50%;
+    top: 50%;
+    left: 98%;
+    position: absolute;
+}
+
+#bottomBarLeft {
+    background-color: #FCCD35;
+    width: 50%;
+    height: 2%;
+    top: 98%;
+    position: absolute;
+}
+
+#bottomBarRight {
+    background-color: #5E763A;
+    width: 50%;
+    height: 2%;
+    top: 98%;
+    left: 50%;
+    position: absolute;
+}
+
+
+#MidTopBarLeft {
+    background-color: black;
+    width: 46.75%;
+    height: 3%;
+    left: 3.25%;
+    top: 3.25%;
+    position: absolute;
+    color:white;
+    text-align: center;
+    font-size: 7mm;
+    font-family: Futura, "Futura SC Light";
+    letter-spacing: 4mm;
+}
+
+#MidTopBarRight {
+    background-color: #5E763A;
+    width: 47.75%;
+    height: 3%;
+    left: 50%;
+    top: 3.25%;
+    position: absolute;
+    color:white;
+    text-align: center;
+    font-size: 7mm;
+    font-family: Futura, "Futura SC Light";    
+    letter-spacing: 4mm;
+}
+
+#MidVerticalBarTopLeft {
+    background-color: black;
+    width: 3%;
+    height: 47%;
+    top: 3.25%;
+    left: 3.25%;
+    position: absolute;
+}
+
+#MidverticalBarBottomLeft {
+    background-color: #5E763A;
+    width: 3%;
+    height: 47.75%;
+    top: 50%;
+    left: 3.25%;
+    position: absolute;
+}
+
+
+#MidVerticalBarTopRight{
+    background-color: #5E763A;
+    width: 3%;
+    height: 47%;
+    top: 3.25%;
+    left: 94.75%;
+    position: absolute;
+}
+
+
+#MidverticalBarBottomRight {
+    background-color: black;
+    width: 3%;
+    height: 47.75%;
+    top: 50%;
+    left: 94.75%;
+    position: absolute;
+}
+
+
+#MidBottomBarLeft {
+    background-color: #5E763A;
+    width: 46.75%;
+    height: 3%;
+    left: 3.25%;
+    top: 94.75%;
+    position: absolute;
+}
+
+#MidBottomBarRight {
+    background-color: black;
+    width: 46.75%;
+    height: 3%;
+    left: 50%;
+    top: 94.75%;
+    position: absolute;    
+}
+
+#InnerTopBarLeft {
+    background-color: #FCCD35;
+    width: 43.75%;
+    height: 2%;
+    left: 6.25%;
+    top: 6.20%;
+    position: absolute;   
+}
+
+#InnerTopBarRight {
+    background-color: black;
+    width: 44.75%;
+    height: 2%;
+    left: 50%;
+    top: 6.20%;
+    position: absolute;       
+}
+
+
+#InnerVerticalBarTopLeft {
+    background-color: #FCCD35;
+    width: 2%;
+    height: 44%;
+    left: 6.25%;
+    top: 6.20%;
+    position: absolute; 
+}
+
+#InnerverticalBarBottomLeft {
+    background-color: black;
+    width: 2%;
+    height: 44.75%;
+    left: 6.25%;
+    top: 50%;
+    position: absolute;    
+}
+
+#InnerVerticalBarTopRight {
+    background-color: black;
+    width: 2%;
+    height: 44%;
+    left: 92.75%;
+    top: 6.20%;
+    position: absolute;
+}
+
+#InnerverticalBarBottomRight {
+    background-color: #FCCD35;
+    width: 2%;
+    height: 44.75%;
+    left: 92.75%;;
+    top: 50%;
+    position: absolute;  
+}
+
+#InnerBottomBarLeft {
+    background-color: black;
+    width: 43.75%;
+    height: 2%;
+    left: 6.25%;
+    top: 92.75%;
+    position: absolute;  
+}
+
+#InnerBottomBarRight {
+    background-color: #FCCD35;
+    width: 43.75%;
+    height: 2%;
+    left: 50%;
+    top: 92.75%;
+    position: absolute;    
+}
+
+
+#fourTopBarLeft {
+    background-color: black;
+    width: 41.75%;
+    height: 2%;
+    left: 8.25%;
+    top: 8%;
+    position: absolute;
+}
+
+#fourTopBarRight {
+    background-color: #5E763A;
+    width: 42.75%;
+    height: 2%;
+    left: 50%;
+    top: 8%;
+    position: absolute;    
+}
+
+
+#fourVerticalBarTopLeft {
+    background-color: black;
+    width: 2%;
+    height: 42.25%;
+    left: 8.25%;
+    top: 8%;
+    position: absolute;   
+}
+
+#fourverticalBarBottomLeft {
+    background-color: #5E763A;
+    width: 2%;
+    height: 42.75%;
+    left: 8.25%;
+    top: 50%;
+    position: absolute;   
+}
+
+#fourVerticalBarTopRight {
+    background-color: #5E763A;
+    width: 2%;
+    height: 42.25%;
+    left: 91%;
+    top: 8%;
+    position: absolute;     
+}
+
+#fourVerticalBarBottomRight {
+    background-color: black;
+    width: 2%;
+    height: 42.75%;
+    left: 91%;
+    top: 50%;
+    position: absolute;  
+}
+
+#fourBottomBarLeft {
+    background-color: #5E763A;
+    width: 41.75%;
+    height: 2%;
+    left: 8.25%;
+    top: 91%;
+    position: absolute;
+}
+
+#fourBottomBarRight {
+    background-color: black;
+    width: 42.75%;
+    height: 2%;
+    left: 50%;
+    top: 91%;
+    position: absolute;  
+}
+
+#fiveTopBarLeft {
+    background-color: #FCCD35;
+    width: 41.25%;
+    height: 1%;
+    left: 10.25%;
+    top: 10%;
+    position: absolute;
+}
+
+#fiveTopBarRight {
+    background-color: black;
+    width: 41%;
+    height: 1%;
+    left: 50%;
+    top: 10%;
+    position: absolute;   
+}
+
+#fiveVerticalBarTopLeft {
+    background-color: #FCCD35;
+    width: 1%;
+    height: 40.25%;
+    left: 10.25%;
+    top: 10%;
+    position: absolute;  
+}
+
+#fiveverticalBarBottomLeft {
+    background-color: black;
+    width: 1%;
+    height: 41%;
+    left: 10.25%;
+    top: 50%;
+    position: absolute; 
+}
+
+
+#fiveVerticalBarTopRight {
+    background-color: black;
+    width: 1%;
+    height: 40.25%;
+    left: 90%;
+    top: 10%;
+    position: absolute;  
+}
+
+
+#fiveVerticalBarBottomRight {
+    background-color: #FCCD35;
+    width: 1%;
+    height: 41%;
+    left: 90%;
+    top: 50%;
+    position: absolute; 
+}
+
+#fiveBottomBarLeft {
+    background-color: black;
+    width: 41.75%;
+    height: 1%;
+    left: 10.25%;
+    top: 90%;
+    position: absolute;
+}
+
+#fiveBottomBarRight {
+    background-color: #FCCD35;
+    width: 40.75%;
+    height: 1%;
+    left: 50%;
+    top: 90%;
+    position: absolute;  
+}
+
+#sixTopBarLeft {
+    background-color: #5E763A;
+    width: 41.25%;
+    height: 3%;
+    left: 11.25%;
+    top: 11%;
+    position: absolute;
+}
+
+#sixTopBarRight {
+    background-color: #FCCD35;
+    width: 40%;
+    height: 3%;
+    left: 50%;
+    top: 11%;
+    position: absolute;   
+}
+
+#sixVerticalBarTopLeft {
+    background-color: #5E763A;
+    width: 3%;
+    height: 39.25%;
+    left: 11.25%;
+    top: 11%;
+    position: absolute;  
+}
+
+#sixVerticalBarBottomLeft {
+    background-color: #FCCD35;
+    width: 3%;
+    height: 40%;
+    left: 11.25%;
+    top: 50%;
+    position: absolute; 
+}
+
+
+#sixVerticalBarTopRight {
+    background-color: #FCCD35;
+    width: 3%;
+    height: 39.25%;
+    left: 87%;
+    top: 11%;
+    position: absolute;  
+}
+
+
+#sixVerticalBarBottomRight {
+    background-color: #5E763A;
+    width: 3%;
+    height: 40%;
+    left: 87%;
+    top: 50%;
+    position: absolute; 
+}
+
+#sixBottomBarLeft {
+    background-color: #FCCD35;
+    width: 41.75%;
+    height: 3%;
+    left: 11.25%;
+    top: 87%;
+    position: absolute;
+}
+
+#sixBottomBarRight {
+    background-color: #5E763A;
+    width: 40%;
+    height: 3%;
+    left: 50%;
+    top: 87%;
+    position: absolute;  
+}
+
+
+#title {
+    width: 100%;
+    top: 15%;
+    font-size: 18mm;
+    position: absolute;
+    text-align: center;
+    font-family: Onyx, "Onyx Std Regular";    
+}
+
+#porText {
+    width: 100%;
+    top: 39%;
+    font-size: 7mm;
+    position: absolute;
+    text-align: center;
+    font-family: Futura, "Futura SC Light"; 
+}
+
+#autor {
+    width: 100%;
+    top: 42%;
+    font-size: 7mm;
+    position: absolute;
+    text-align: center;
+    font-family: Futura, "Futura SC Light"; 
+}
+
+#editorial {
+    width: 100%;
+    top: 94.5%;
+    font-size: 6.75mm;
+    letter-spacing: 2mm;
+    position: absolute;
+    text-align: center;
+    font-family: "Emblema 25";   
+    color: white;
+}
+
+
+button {
+    font-family: Futura No2, "Futura No 2 D SC Book";  
+    letter-spacing: 0mm;  
+    border: 0px;
+    background-color: lightblue;
+}
+
+#catalogo {
+    width: 60%;
+    height: 10%;
+    left: 21%;
+    top: 25%;
+    font-size: 5mm;
+    position: absolute;
+}
+
+#random {
+    width: 60%;
+    height: 10%;
+    left: 21%;
+    top: 40%;
+    font-size: 5mm;
+    position: absolute;
+}
+
+#imgContainer {
+    width:100%;
+    top: 46%;
+    text-align: center;
+    position: absolute;
+
+}
+
+img {
+    max-height: 110mm;
+}
